@@ -1,4 +1,4 @@
-# Olive Weather Forecasting – MSc Thesis Project
+# Uncertainty-Aware Forecasting – MSc Thesis Project
 
 This repository contains the code pipeline for my MSc thesis. The project focuses on developing a forecasting model tailored for olive cultivation, combining deep learning with uncertainty-aware Bayesian methods.
 
