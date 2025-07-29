@@ -12,14 +12,13 @@ Climate plays a critical role in olive farming, and accurate weather forecasting
 ## Methods Used
 
 - **GRU (Gated Recurrent Units):** For modeling time-series temperature data  
-- **Facebook Prophet:** As a statistical baseline  
+- **Facebook Prophet:** For decomposing the time series temperature data into trend and residual components 
 - **Bayesian Ensemble Kalman Filter (BEKF):** For updating GRU weights with real-time data and managing uncertainty  
 - **Preprocessing:** Forward/backward filling for missing values, scaling, and regional standardization
 
 ## Contents
 
-- `Msc_Thesis_Code_Pipeline.ipynb` – Full modeling pipeline from preprocessing to evaluation
-- *(Optional folders)* `data/` for raw CSVs and `results/` for plots or metrics
+- 'Msc_Thesis_Code_Pipeline.ipynb' – Full modeling pipeline from preprocessing to evaluation
 
 ## Results Highlights
 
@@ -30,5 +29,5 @@ Climate plays a critical role in olive farming, and accurate weather forecasting
 ## Technologies
 
 - Python 3.x  
-- `pandas`, `numpy`, `tensorflow`, `keras`, `scikit-learn`, `prophet`, `matplotlib`
+- 'pandas', 'numpy', 'tensorflow', 'keras', 'scikit-learn', 'prophet', 'matplotlib'
 
